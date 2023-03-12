@@ -1,0 +1,7 @@
+Professor, não gostaria de fazer o tracking on figma já que sei fazer isso de boas
+Mas caso precise, a Nav é uma div com uma img e 3 a
+A parte to perfil é outra div com uma de cada: img, h1, h3
+A parte sobre é uma div com h1, ul e 5 li
+As partes do lado são duas divs com 1 h1 e listas cadas
+tem a parte de redes sociais que é uma div com h1,ul, 3 li e 3a (dois já funcionando)
+e tem de footer adicionada que é uma div, com h1,ul, 3 li e 3a
