@@ -1,0 +1,41 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat';font-size: 22px;
+    color: #000000;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+img{
+    content: url(https://em-content.zobj.net/source/microsoft-teams/337/flushed-face_1f633.png);
+    width: 200px;
+
+}
+
+.dark-mode img{
+    content: url(https://em-content.zobj.net/source/microsoft-teams/337/sleeping-face_1f634.png);
+    width: 200px;
+}
+
+button{
+        background-color: #000000;
+        border: none;
+        color: #ffa8d4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+}
+button:hover{
+    background-color: #ffa8d4;
+    color: #000000;
+}
