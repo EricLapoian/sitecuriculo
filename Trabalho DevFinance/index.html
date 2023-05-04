@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DEV Finance atividade trabalho</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav>
+		<ul>
+            <li style="background-color: #a4ca3d;"><img src="logo.png" width="38px" style="margin-left: 10px;"></li>
+            <li><b><a style="background-color: #a4ca3d; color: #333;">URUBU FINANCES</a></b></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<div class="card-header">Saldo</div>
+				<div class="card-body">
+					<span id="balance-value">R$ 0,00</span>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<div class="card-header">Ganhos</div>
+				<div class="card-body">
+					<form>
+						<label for="income-description">Descrição: </label>
+						<input type="text" id="income-description" required>
+						<label for="income-value">Valor: </label>
+						<input type="number" id="income-value" required>
+						<button type="button" onclick="addIncome()">Confirmar</button>
+					</form>
+					<ul id="income-list"></ul>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="card">
+				<div class="card-header">Despesas</div>
+				<div class="card-body">
+					<form>
+						<label for="expense-description">Descrição: </label>
+						<input type="text" id="expense-description" required>
+						<label for="expense-value">Valor: </label>
+						<input type="number" id="expense-value" required>
+						<button type="button" onclick="addExpense()">Confirmar</button>
+					</form>
+					<ul id="expense-list"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<div class="card-header">Condição inicial</div>
+				<div class="card-body">
+					<form>
+						<label for="initial-balance">Saldo inicial: </label>
+						<input type="number" id="initial-balance" required>
+						<button type="button" onclick="setInitialBalance()">Confirmar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
