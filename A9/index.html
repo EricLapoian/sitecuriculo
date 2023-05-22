@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Square</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">THE SQUARE</h1>
+    <div class="rectangle" id="rectangle"></div>
+    <div class="border-controls">
+      <label for="top-left"><input type="checkbox" id="top-left">Top Left</label>
+      <label for="top-right"><input type="checkbox" id="top-right">Top Right</label>
+      <label for="bottom-left"><input type="checkbox" id="bottom-left">Bottom Left</label>
+      <label for="bottom-right"><input type="checkbox" id="bottom-right">Bottom Right</label>
+    </div>
+    <div class="range-slider">
+      <input type="range" id="border-radius-slider" min="0" max="50" value="0">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
