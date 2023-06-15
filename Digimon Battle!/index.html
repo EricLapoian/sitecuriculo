@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>Digimon Royal Battle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="assets/icon.gif"/>
+</head>
+
+<body>
+    <header>
+        <img src="assets/digivice.png" alt="Logo Digimon">
+        <h1>DIGIMON BATTLE!</h1>
+      </header>
+    <div class="container">
+        <div class="heading">
+            <h2>Bem vindo ao Digiverso</h2>
+            <p><br>Lucemon quer te parar de sonhar, para isso você deve escolher seu parceiro Digimon, caso você perca ele vai destruir o mundo e o digimundo ☠️<br><br>Atinja 10 pontos antes de Lucemon para ganhar</p>
+        </div>
+        <div class="scores">
+
+            <p>Lucemon :
+                <span id="ponto_lucemon">0</span>
+            </p>
+            <p>
+                Você :
+                <span id="ponto_pessoa">0</span>
+            </p>
+        </div>
+        <div class="heading">
+            <h2>Escolha seu amigo</h2>
+        </div>
+        <table class="Digimons">
+            <td>
+            <button onclick="checker('huckmon')">
+                <img src="assets/hackmon.png">
+            </button>
+            <button onclick="checker('palmon')">
+                <img src="assets/palmon.png">
+            </button>
+            <button onclick="checker('gabumon')">
+                <img src="assets/gabumon.png">
+            </button>
+            <button onclick="checker('agumon')">
+                <img src="assets/agumon.png">
+            </button>
+            <button onclick="checker('gatomon')">
+                <img src="assets/gatomon.png">
+            </button>
+            </td>
+        </table>
+        <div class="details">
+            <p id="escolha"></p>
+            <p id="escolha_lucemon"></p>
+            <p id="resultado"></p>
+            <img id="gif-digimon-bad" src="assets/lucemon-digimon.gif" style="display: none;">
+            <img id="gif-digimon-good" src="assets/goodbye-digimon.gif" style="display: none;">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

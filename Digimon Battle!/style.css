@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.scores p {
+    font-weight: 600;
+}
+.Digimons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Digimons button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 5px;
+}
+.Digimons img {
+    width: 130px;
+}
+.details {
+    text-align: center;
+}
+.details p {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    transform: scale(1.2);
+}
+button:active {
+    transform: scale(0.9);
+}
+img{
+    margin: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #0a1c27;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  header img {
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 20px;
+  } 
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+  }
